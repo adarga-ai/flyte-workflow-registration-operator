@@ -1,0 +1,3 @@
+# Ignore generated files
+config/crd/bases/* linguist-generated
+**/mocks/*.go linguist-generated
