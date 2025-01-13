@@ -1,0 +1,14 @@
+apiVersion: flyte.backend/v1
+kind: FlyteRegistration
+metadata:
+  labels:
+    app.kubernetes.io/name: flyteregistration
+    app.kubernetes.io/instance: flyteregistration
+    app.kubernetes.io/part-of: flyte
+  name: relationships-extraction
+spec:
+  # register workflows
+  workflowVersion: 1.2.3
+  workflowProject: example
+  workflowDomain: development
+  workflowPackageUri: adarga/example-worfklow

@@ -1,0 +1,4 @@
+## Append samples of your project ##
+resources:
+  - flyte_v1_flyteregistration.yaml
+#+kubebuilder:scaffold:manifestskustomizesamples

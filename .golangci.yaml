@@ -1,0 +1,19 @@
+linters:
+  enable:
+    - asciicheck
+    - bodyclose
+    - errchkjson
+    - errorlint
+    - godox
+    - goimports
+    - govet
+    - misspell
+    - nonamedreturns
+    - prealloc
+    - revive
+    - tenv
+    - whitespace
+
+issues:
+  exclude-use-default: false
+
